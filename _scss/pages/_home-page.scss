@@ -1,7 +1,16 @@
 /* Home Page */
 
-.home-page-intro-container {
-  background-color: #fff;
+#homeHero  {
+  margin-top:150px;
+  margin-bottom:150px;
+  .rowHero {
+    align-items:center;
+  }
+  .headline {
+    font-weight: 900;
+    font-size:2.5rem;
+    line-height: 2.5rem;
+  }
 }
 
 .home-intro {
