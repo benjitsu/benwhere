@@ -1,8 +1,11 @@
 window.$ = window.jQuery = require('jquery');
 global.Popper = require('popper.js');
 var bootstrap = require('bootstrap');
+var mixitup = require('mixitup');
 var magnificPopup = require('magnific-popup');
 var matchHeight = require('jquery-match-height');
+
+var mixer = mixitup('.items .row');
 
 $('.dropdown-chevron-mobile').on('click', function(e) {
 

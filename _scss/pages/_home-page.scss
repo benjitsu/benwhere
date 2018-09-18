@@ -1,90 +1,56 @@
 /* Home Page */
 
 #homeHero  {
-  margin-top:150px;
-  margin-bottom:150px;
+  height: calc(100vh - 80px);
   .rowHero {
     align-items:center;
+    @include rem(padding, 150px 0 0 0 );
   }
   .headline {
     font-weight: 900;
     font-size:2.5rem;
     line-height: 2.5rem;
+    float:right;
+  }
+  .ben {
+    width:300px;
+    height:300px;
+    border-radius: 150px;
+    background-image: url(/img/ben.jpg);
+    background-size: cover;
+    margin-left:100px; 
   }
 }
 
-.home-intro {
-  display: block;
-  @include rem(padding, 40px 0 40px 0);
-  @include media-breakpoint-down(sm) {
-    padding-bottom: 0;
-    .btn-success {
-      width: 100%;
+#homePortfolio {
+  @include rem(margin-bottom, 150px);
+  .controls {
+    margin-bottom: 3rem;
+    .mixitup-control-active {
+      border-bottom: 2px solid $linkGreen;
+    }
+    button {
+      color:black;
+      font-size:1rem;
+      margin-left:2.5rem;
+      font-weight:700;
+      border:none;
+      padding: 0 0;
+      outline:none;
+      
+      &:hover {
+        color: $linkGreen;
+      }
+    }
+  }
+  .item {
+    @include rem(margin-bottom, 30px);
+    .details{
+      color:black;
+      font-weight: 700;
+      @include rem(font-size, 15px);
+      @include rem(padding, 15px 0);
     }
   }
 }
 
-.home-carousel {
-  @include rem(margin, 40px 0 40px 0);
-  border: 1px solid #bbb;
-  box-shadow: rgba(0,0,0,0.0980392) 0 1px 4px;
-  img {
-    height:100%;
-    width:100%;
-  }
-  @include media-breakpoint-down(xs) {
-    display: none;
-  }
-}
-
-.home-page-cards-background {
-  background-color: #ccc;
-  @include rem(padding, 40px 0 40px 0);
-  @include media-breakpoint-down(xs) {
-    background-color: #fff;
-  }
-}
-
-.home-card {
-  background-color: #fff;
-  float: left;
-  width: 100%;
-  border: 1px solid #bbb;
-  box-shadow: rgba(0,0,0,0.0980392) 0 1px 4px;
-  @include media-breakpoint-down(xs) {
-    box-shadow: none;
-    border: 0px;
-  }
-  img {
-    &:hover {
-      opacity: 0.9;
-    }
-  }
-  @include media-breakpoint-down(md) {
-    @include rem(margin-bottom, 40px);
-    img {
-      float: left;
-      width: 50%;
-    }
-  }
-  @include media-breakpoint-down(sm) {
-    @include rem(padding, 0);
-    img {
-      float: left;
-      width: 100%;
-      @include rem(margin-bottom, 15px);
-    }
-  }
-  .home-card-content {
-    float: left;
-    width: 100%;
-    @include rem(padding, 30px);
-    @include media-breakpoint-down(md) {
-      width: 50%;
-    }
-    @include media-breakpoint-down(xs) {
-      width: 100%;
-      padding: 0;
-    }
-  }
-}
