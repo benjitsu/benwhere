@@ -7,10 +7,6 @@
     -webkit-flex-flow: row nowrap;
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
   }
   .navbar-nav {
     -webkit-box-orient: horizontal;
@@ -18,6 +14,7 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    justify-content: flex-end;
   }
 }
 
@@ -34,13 +31,15 @@
   -ms-flex-align: center;
   align-items: center;
   .show {
-    disply:inline-flex;
+    display:inline-flex;
   }
 }
 
 
 .navbar-toggler {
   cursor: pointer;
+  border:none;
+  color:black;
 }
 
 .subcategory {
@@ -169,4 +168,8 @@
 .subcategory.open {
   display: block;
   border-top:1px solid #eee;
+}
+
+.navbar-brand {
+  visibility: hidden;
 }
