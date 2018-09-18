@@ -5,7 +5,12 @@ var mixitup = require('mixitup');
 var magnificPopup = require('magnific-popup');
 var matchHeight = require('jquery-match-height');
 
-var mixer = mixitup('.items .row');
+var mixer = mixitup('.items .row', {
+  selectors: {
+      control: '[data-mixitup-control]'
+  }
+});
+
 
 $('.dropdown-chevron-mobile').on('click', function(e) {
 
