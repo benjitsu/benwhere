@@ -44,6 +44,10 @@
     }
   }
   .item {
+    a {
+      cursor: pointer;
+      text-decoration: none;
+    }
     @include rem(margin-bottom, 30px);
     .details{
       color:black;

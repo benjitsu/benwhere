@@ -5,6 +5,9 @@
 $fa-font-path: "../fonts/FontAwesome";
 @import "../node_modules/font-awesome/scss/font-awesome";
 
+/* Bootstrap */
+@import "../node_modules/magnific-popup/src/css/main";
+
 /* Mixins */
 @import "mixins/rem";
 @import "mixins/transitions";
@@ -28,3 +31,5 @@ $fa-font-path: "../fonts/FontAwesome";
 
 /* Typography */
 @import "typography/headings";
+
+

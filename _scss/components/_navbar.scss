@@ -39,7 +39,10 @@
 .navbar-toggler {
   cursor: pointer;
   border:none;
-  color:black;
+  outline:none;
+  &:focus {
+    outline:none;
+  }
 }
 
 .subcategory {
@@ -119,6 +122,8 @@
 }
 
 .nav-link {
+  color: rgba(0,0,0,1);
+  font-size: 1rem;
   display: block;
   z-index: 1;
   @include rem(padding, 12px 16px 12px 16px !important);

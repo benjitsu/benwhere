@@ -50,3 +50,8 @@ $('.image-link').magnificPopup({
     enabled: true
   }
 });
+
+
+$('.ajax-popup-link').magnificPopup({
+  type: 'ajax'
+});
