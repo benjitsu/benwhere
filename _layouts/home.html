@@ -3,16 +3,29 @@ layout: default
 ---
 
 <section id="homeHero">
-    <div class="container-full">
-      <div class="container">
-        <div class="row rowHero">
-          <div class="col-lg-6"><div class="headline">Hello! My name’s Ben. <br/>I’m a graphic designer <br/>& web developer. Also <br/>know as a unicorn.</div></div>
-          <div class="col-lg-6"><div class="ben"></div></div>
+  <div class="container-full">
+    <div class="container">
+      <div class="row rowHero">
+        <div class="col-lg-6">
+          <div class="headline">
+            Hello! My name’s Ben. <br/>I’m a graphic designer <br/>& web developer. Also <br/>know as
+            a <span class="uniLink">unicorn<div class="uBar"></div></span>.
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="ben">
+            <div class="benUni"><img class="img-fluid" src="/img/ben-2.jpg" width="420" height="420"></div>
+            <img class="img-fluid" src="/img/ben-1.jpg" width="420" height="420">
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <section id="homePortfolio">
+  </div>
+      <div class="arrow bounce">
+          <a class="fa fa-arrow-down" href="#homePortfolio"></a>
+  </div>
+</section>
+  <section id="Design">
 <div class="container">
   <div class="row controls text-right">
     <div class="col-xl-11 col-lg-12 mr-auto ml-auto">
@@ -25,7 +38,7 @@ layout: default
   </div>
 
   <div class="row items">
- <div class="col-xl-11 col-lg-12 mr-auto ml-auto"><div class="row">
+ <div class="col-xl-11 col-lg-12 mr-auto ml-auto"><div id="allItems" class="row">
     <div class="col-lg-4 mix item brand">
       <a class="ajax-popup-link" href="/hi5-networks">
       <img src="/img/icons/hi5.jpg">
@@ -34,9 +47,11 @@ layout: default
     </div>
   
     
-    <div class="col-lg-4 mix item product">
-      <img src="/img/icons/eng-blog.jpg">
-      <div class="details">Engineering Blog Graphics</div>
+    <div class="col-lg-4 mix item brand">
+      <a class="ajax-popup-link" href="/credit-karma-email-design">
+      <img src="/img/icons/moving-email.jpg">
+      <div class="details">Credit Karma Email</div>
+    </a>
     </div>
     
     <div class="col-lg-4 mix item dev">

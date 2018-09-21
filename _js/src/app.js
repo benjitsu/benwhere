@@ -39,6 +39,13 @@ $('.back-to-top').click(function(){
   return false;
 });
 
+
+$('.arrow').click(function(){
+$('html, body').animate({
+  scrollTop: ($('#Design').offset().top -50)
+},500);
+});
+
 /* Match height */
 $('.pricing-card-features').matchHeight();
 $('.panel').matchHeight();
@@ -53,5 +60,25 @@ $('.image-link').magnificPopup({
 
 
 $('.ajax-popup-link').magnificPopup({
-  type: 'ajax'
+  type: 'ajax',
+  mainClass: 'mfp-move-from-top'
+});
+
+// Inline popups
+$('#allItems').magnificPopup({
+  delegate: 'a',
+  removalDelay: 500, //delay removal by X to allow out-animation
+  callbacks: {
+    beforeOpen: function() {
+       this.st.mainClass = this.st.el.attr('data-effect');
+    }
+  },
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});
+
+var uLink = document.querySelector('.uniLink');
+var benUni = document.querySelector('.benUni');
+
+uLink.addEventListener('click', function(){
+benUni.classList.toggle('uniHello');
 });
