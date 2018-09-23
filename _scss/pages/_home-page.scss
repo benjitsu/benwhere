@@ -113,7 +113,10 @@
     color:black;
     @include rem(padding, 15px);    
     &:hover {
+      cursor: pointer;
       text-decoration: none;
+      color: gray;
+      @include transition(all, 100ms, ease-in-out);
     }
 
   }

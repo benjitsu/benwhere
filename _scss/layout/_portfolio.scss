@@ -1,25 +1,25 @@
 #portfolioHero {
-    @include rem (margin, 20px 0 100px 0);
+    @include rem (margin, 50px 0 120px 0);
     h1 {
     font-weight:900;
-    @include rem (font-size, 70px);
+    @include rem (font-size, 40px);
     }
     .bar {
         @include rem(width, 150px);
-        @include rem(height, 10px);
-        background-color: $linkGreen;
-        @include rem(margin-top, 50px);
+        @include rem(height, 2px);
+        background-color: $darkTxt;
+        @include rem(margin-top, 30px);
     }
 }
 
 #portfolioMain {
     font-weight: 300;
-    @include rem(font-size,16px);
+    @include rem(font-size,18px);
     .pod {
-        @include rem(margin-top, 100px);
-        @include rem(margin-bottom, 100px);
+        @include rem(margin-top, 120px);
+        @include rem(margin-bottom, 120px);
     .space {
-        @include rem(margin-top, 100px);
+        @include rem(margin-top, 120px);
     }
     }
     .pod-inner {
@@ -27,7 +27,7 @@
         @include rem(padding-bottom, 150px);
     }
     h2 {
-        @include rem(font-size,16px);
+        @include rem(font-size,15px);
         font-family: 'Roboto Condensed', sans-serif;
         font-weight:700;
         text-transform: uppercase;
@@ -40,15 +40,16 @@
 }
 
 .ajaxWrap {
-    max-width: 1000px;
+    max-width: 950px;
     background-color: white;
     @include rem(padding, 50px);
     @include rem(margin-top, 20px);
+    position: relative;
 }
 
 
     .mfp-bg {
-        background: #f1f1f1;
+        background: #f7f8fa;
         opacity: 0.9;
     }
 
@@ -83,7 +84,7 @@
         transform: translateY(0);
       }
       &.mfp-bg {
-        opacity: 0.8;
+        opacity: 0.95;
       }
     }
     
@@ -91,7 +92,7 @@
     &.mfp-removing {
       
       .mfp-content {
-        transform: translateY(-50px);
+        transform: translateY(50px);
         opacity: 0;
       }
       &.mfp-bg {

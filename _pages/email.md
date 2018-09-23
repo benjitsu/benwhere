@@ -14,13 +14,31 @@ permalink: /credit-karma-email-design/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">The challenge with email design was to create a delightful experience for the user, completely within our brand style, which converted at a high rate, when that was the goal. For each email campaign, I generally created several versions to be AB tested to find which was the most effective. I worked closely with a copywriter and marketing lead to ensure that the design corresponded perfectly with the subject lines and body copy, and that it clearly communicated the message of the email.</p>
+                <p class="mb-0"> The challegne with these projects was to create a delightful and engaging experience for the user, that would quickly communicate a message, without deviating from our brand style. As the messaging for each email varried from a simple account update, to a fraud alert, to new product promotion, the end-goal and success metrics for each campaign also varried greatly. </p>
+
+               
             </div>
         </div>
    </div>
 </div>
 
 <!--the challenge end -->
+
+<!--the process-->
+
+<div class="container-fluid pod">
+        <div class="col-lg-11 mx-auto">
+             <div class="row">
+                 <div class="col">
+                     <h2>The Process</h2>
+                     <p class="mb-0">
+                         After reviewing the project breif, I generally brainstormed ideas with a copywriter and marketing lead to be sure that all visuals would properly corosponded with subject lines and email copy. Once multiple visuals and copy variations were laid out, we reviewed everything for brand style and voice, and mapped out the elements for AB testing. We worked with the constraints of often having to produce these emails very quickly and with limited ability to the change overall layout.</p>
+                 </div>
+             </div>
+        </div>
+     </div>
+     
+     <!--the process end -->
 
 
 <!--the final product-->
@@ -92,7 +110,7 @@ permalink: /credit-karma-email-design/
                         </div>
                         <div class="row mt-4">
                             <div class="col">
-                                <p class="comment mb-0">This email was sent out to inform users about our newest proect - Unclaimed Money. It allows users to check their names against goverment databases of money that is unknowly owed to people and ready to be collected. If they find a match, it guides them in collecting the funds. 
+                                <p class="comment mb-0">This email was sent out to inform users about our newest proect - Unclaimed Money. It allows users to check their names against goverment databases of money that is unknowly owed to peole and ready to be collected. If they find a match, it guides them in collecting the funds. 
                                     </p>
                             </div>
                         </div>

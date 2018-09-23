@@ -61,7 +61,8 @@ $('.image-link').magnificPopup({
 
 $('.ajax-popup-link').magnificPopup({
   type: 'ajax',
-  mainClass: 'mfp-move-from-top'
+  mainClass: 'mfp-move-from-top',
+  removalDelay: 400,
 });
 
 // Inline popups
