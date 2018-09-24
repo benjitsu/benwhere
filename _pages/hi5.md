@@ -3,7 +3,18 @@ layout: portfolio
 title: hi5 Networks Rebranding
 permalink: /hi5-networks/
 ---
-
+<section id="portfolioHero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11 mx-auto">
+                    <h1 class="text-center">{{ page.title }}</h1>
+                </div>
+            </div>
+             <div class="row">
+               <div class="bar mx-auto"></div> 
+            </div> 
+        </div>
+    </section>
 <section id="portfolioMain">
        
 <!--the challenge-->
@@ -74,7 +85,7 @@ permalink: /hi5-networks/
             </div>
         </div>
     
-        <div class="row mt-5">
+        <div class="row space">
             <div class="col">
                 <img class="img-fluid shadowBg" src="/img/work/hi5-process-2.jpg" height="400px" width="800px">
             </div>
@@ -110,7 +121,7 @@ permalink: /hi5-networks/
                 </div>
             </div>
     
-            <div class="row mt-5">
+            <div class="row space">
                 <div class="col">
                     <img class="img-fluid shadowBg" src="/img/work/hi5-final-dark.jpg" height="500px" width="800px">
                 </div>
@@ -121,7 +132,7 @@ permalink: /hi5-networks/
                 </div>
             </div>
     
-            <div class="row mt-5">
+            <div class="row space">
                 <div class="col">
                     <img class="img-fluid shadowBg" src="/img/work/hi5-profile-new.jpg" height="502px" width="800px">
                 </div>

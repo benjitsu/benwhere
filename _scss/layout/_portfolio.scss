@@ -2,11 +2,11 @@
     @include rem (margin, 50px 0 120px 0);
     h1 {
     font-weight:900;
-    @include rem (font-size, 40px);
+    @include rem (font-size, 64px);
     }
     .bar {
-        @include rem(width, 150px);
-        @include rem(height, 2px);
+        @include rem(width, 90px);
+        @include rem(height, 6px);
         background-color: $darkTxt;
         @include rem(margin-top, 30px);
     }
@@ -40,7 +40,7 @@
 }
 
 .ajaxWrap {
-    max-width: 950px;
+    max-width: 1050px;
     background-color: white;
     @include rem(padding, 50px);
     @include rem(margin-top, 20px);
@@ -50,7 +50,7 @@
 
     .mfp-bg {
         background: #f7f8fa;
-        opacity: 0.9;
+        opacity: 1;
     }
 
 

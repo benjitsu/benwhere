@@ -3,7 +3,18 @@ layout: portfolio
 title: Credit Karma Tax Social Media Ad
 permalink: /ck-tax-social-media/
 ---
-
+<section id="portfolioHero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11 mx-auto">
+                    <h1 class="text-center">{{ page.title }}</h1>
+                </div>
+            </div>
+             <div class="row">
+               <div class="bar mx-auto"></div> 
+            </div> 
+        </div>
+    </section>
 <section id="portfolioMain">
        
 <!--the challenge-->
@@ -59,9 +70,9 @@ permalink: /ck-tax-social-media/
                 </div>
            
     
-            <div class="row mt-5">
+            <div class="row space">
                 <div class="col text-center">
-                    <img class="img-fluid shadowBg mx-auto" src="/img/work/tax-ad-mockup.jpg">
+                    <img class="img-fluid mx-auto" src="/img/work/tax-ad-mockup.jpg">
                 </div>
             </div>
             <div class="row mt-4">

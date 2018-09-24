@@ -3,7 +3,18 @@ layout: portfolio
 title: Engineering Blog Editorial Graphics
 permalink: /engineering-blog-editorial/
 ---
-
+<section id="portfolioHero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11 mx-auto">
+                    <h1 class="text-center">{{ page.title }}</h1>
+                </div>
+            </div>
+             <div class="row">
+               <div class="bar mx-auto"></div> 
+            </div> 
+        </div>
+    </section>
 <section id="portfolioMain">
        
 <!--the challenge-->
@@ -41,7 +52,7 @@ permalink: /engineering-blog-editorial/
             </div>
            
     
-            <div class="row mt-5">
+            <div class="row space">
                     <div class="col">
                             <img class="img-fluid shadowBg" src="/img/work/eng-blog-3.jpg">
                         </div>
@@ -51,7 +62,7 @@ permalink: /engineering-blog-editorial/
             </div>
            
     
-            <div class="row mt-5">
+            <div class="row space">
                     <div class="col">
                             <img class="img-fluid shadowBg" src="/img/work/eng-blog-5.jpg">
                         </div>

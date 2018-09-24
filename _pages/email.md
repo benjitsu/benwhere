@@ -4,7 +4,18 @@ title: Credit Karma Email Design
 permalink: /credit-karma-email-design/
 ---
 
-
+<section id="portfolioHero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11 mx-auto">
+                    <h1 class="text-center">{{ page.title }}</h1>
+                </div>
+            </div>
+             <div class="row">
+               <div class="bar mx-auto"></div> 
+            </div> 
+        </div>
+    </section>
 <section id="portfolioMain">
        
 <!--the challenge-->
