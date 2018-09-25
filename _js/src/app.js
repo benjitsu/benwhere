@@ -63,19 +63,11 @@ $('.ajax-popup-link').magnificPopup({
   type: 'ajax',
   mainClass: 'mfp-move-from-top',
   removalDelay: 400,
+  fixedContentPos: true,
+  closeBtnInside: true,
 });
 
-// Inline popups
-$('#allItems').magnificPopup({
-  delegate: 'a',
-  removalDelay: 500, //delay removal by X to allow out-animation
-  callbacks: {
-    beforeOpen: function() {
-       this.st.mainClass = this.st.el.attr('data-effect');
-    }
-  },
-  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
+
 
 var uLink = document.querySelector('.uniLink');
 var benUni = document.querySelector('.benUni');

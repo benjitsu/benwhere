@@ -1,12 +1,12 @@
 ---
-layout: portfolio
+layout: portpage
 title: Credit Karma Tax Social Media Ad
 permalink: /ck-tax-social-media/
 ---
 <section id="portfolioHero">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-11 mx-auto">
+                <div class="col-lg-11 col-md-11 mx-auto">
                     <h1 class="text-center">{{ page.title }}</h1>
                 </div>
             </div>
@@ -20,7 +20,7 @@ permalink: /ck-tax-social-media/
 <!--the challenge-->
 
 <div class="container-fluid pod">
-   <div class="col-lg-11 mx-auto">
+   <div class="col-lg-11 col-md-11 mx-auto">
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
@@ -35,7 +35,7 @@ permalink: /ck-tax-social-media/
 
 <!--the process-->
 <div class="container-fluid pod">
-<div class="col-lg-11 mx-auto">
+<div class="col-lg-11 col-md-11 mx-auto">
         <div class="row">
             <div class="col">
                 <h2>The Process</h2>
@@ -49,7 +49,7 @@ permalink: /ck-tax-social-media/
 <!--the final product-->
 
     <div class="container-fluid pod">
-       <div class="col-lg-11 mx-auto">
+       <div class="col-lg-11 col-md-11 mx-auto">
             <div class="row">
                 <div class="col">
                     <h2>The Results</h2>

@@ -1,6 +1,9 @@
 #portfolioHero {
     @include rem (margin, 50px 0 120px 0);
     h1 {
+    @include media-breakpoint-down(sm) { 
+        @include rem (font-size, 48px);
+     }
     font-weight:900;
     @include rem (font-size, 64px);
     }
@@ -13,8 +16,19 @@
 }
 
 #portfolioMain {
+
     font-weight: 300;
-    @include rem(font-size,18px);
+    @include rem(font-size,16px);
+    @include media-breakpoint-down(sm) { 
+        @include rem (font-size, 15px);
+     }
+    .role {
+        @include media-breakpoint-down(sm) { 
+            @include rem (font-size, 14px);
+         }
+        @include rem(font-size, 15px);
+        font-weight: 400;
+    }
     .pod {
         @include rem(margin-top, 120px);
         @include rem(margin-bottom, 120px);
@@ -32,10 +46,16 @@
         font-weight:700;
         text-transform: uppercase;
         @include rem(margin-bottom, 30px);
+        @include media-breakpoint-down(sm) { 
+            @include rem (font-size, 14px);
+         }
     }
     .comment {
         font-style: oblique;
         @include rem(font-size, 15px);
+        @include media-breakpoint-down(sm) { 
+            @include rem (font-size, 14px);
+         }
     }
 }
 
@@ -43,8 +63,7 @@
     max-width: 1050px;
     background-color: white;
     @include rem(padding, 50px);
-    @include rem(margin-top, 20px);
-    position: relative;
+    @include rem(margin-top, 10px);
 }
 
 
@@ -54,6 +73,10 @@
     }
 
 
+
+.portPageWrap {
+    max-width: 950px;
+}
     /* 
 ====== Move-from-top effect ======
 */

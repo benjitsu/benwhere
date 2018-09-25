@@ -1,12 +1,12 @@
 ---
-layout: portfolio
-title: US First Display Ads
+layout: portpage
+title: US First Display Ads
 permalink: /us-first/
 ---
 <section id="portfolioHero">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-11 mx-auto">
+                <div class="col-lg-11 col-md-11 mx-auto">
                     <h1 class="text-center">{{ page.title }}</h1>
                 </div>
             </div>
@@ -20,7 +20,7 @@ permalink: /us-first/
 <!--the challenge-->
 
 <div class="container-fluid pod">
-   <div class="col-lg-11 mx-auto">
+   <div class="col-lg-11 col-md-11 mx-auto">
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
@@ -36,7 +36,7 @@ permalink: /us-first/
 <!--the final product-->
 
     <div class="container-fluid pod">
-        <div class="col-lg-11 mx-auto">
+        <div class="col-lg-11 col-md-11 mx-auto">
             <div class="row">
                 <div class="col">
                     <h2>The Results</h2>
@@ -44,15 +44,15 @@ permalink: /us-first/
             </div>
             <div class="row">
 
-                <div class="col">
-                    <video class="shadowBg mx-auto" width="374px" autoplay loop>
+                <div class="col-xs-12 col-sm-6">
+                    <video style="max-width:374px;" class="shadowBg mx-auto" width="100%" autoplay loop>
                         <source src="/img/work/shecking-1.mp4" type="video/mp4"> Your browser does not support the video tag.
                     </video>
                 </div>
             
            
-                <div class="col">
-                        <video class="shadowBg mx-auto" width="374px" autoplay loop>
+                <div class="col-xs-12 col-sm-6">
+                        <video style="max-width:374px;" class="shadowBg mx-auto" width="100%" autoplay loop>
                             <source src="/img/work/shecking-2.mp4" type="video/mp4"> Your browser does not support the video tag.
                         </video>
                     </div>

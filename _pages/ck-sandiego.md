@@ -1,12 +1,12 @@
 ---
-layout: portfolio
+layout: portpage
 title: Credit Karma Outdoor Advertising
 permalink: /ck-sandiego-outdoor/
 ---
 <section id="portfolioHero">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-11 mx-auto">
+                <div class="col-lg-11 col-md-11 mx-auto">
                     <h1 class="text-center">{{ page.title }}</h1>
                 </div>
             </div>
@@ -20,7 +20,7 @@ permalink: /ck-sandiego-outdoor/
 <!--the challenge-->
 
 <div class="container-fluid pod">
-   <div class="col-lg-11 mx-auto">
+   <div class="col-lg-11 col-md-11 mx-auto">
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
@@ -35,7 +35,7 @@ permalink: /ck-sandiego-outdoor/
 
 <!--the process-->
 <div class="container-fluid pod">
-<div class="col-lg-11 mx-auto">
+<div class="col-lg-11 col-md-11 mx-auto">
         <div class="row">
             <div class="col">
                 <h2>The Process</h2>
@@ -69,7 +69,7 @@ permalink: /ck-sandiego-outdoor/
 <!--the final product-->
 
     <div class="container-fluid pod">
-       <div class="col-lg-11 mx-auto">
+       <div class="col-lg-11 col-md-11 mx-auto">
             <div class="row">
                 <div class="col">
                     <h2>The Results</h2>
@@ -82,21 +82,21 @@ permalink: /ck-sandiego-outdoor/
             </div>
            
     
-            <div class="row mt-5">
+            <div class="row space">
                 <div class="col">
                     <img class="img-fluid shadowBg" src="/img/work/creditkarma2.jpg">
                 </div>
             </div>
            
     
-            <div class="row mt-5">
+            <div class="row space">
                 <div class="col">
                     <img class="img-fluid shadowBg" src="/img/work/bus-interior.jpg">
                 </div>
             </div>
            
 
-            <div class="row mt-5">
+            <div class="row space">
                     <div class="col">
                         <img class="img-fluid shadowBg" src="/img/work/bus-shelter.jpg">
                     </div>

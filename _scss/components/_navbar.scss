@@ -1,5 +1,7 @@
 /* Navigation */
-
+.navbar {
+  @include rem(height, 65px);
+}
 @include media-breakpoint-up(lg){
   .navbar {
     -webkit-box-orient: horizontal;
@@ -40,6 +42,11 @@
   cursor: pointer;
   border:none;
   outline:none;
+  color: $darkTxt !important;
+  opacity: 1;
+  &:hover {
+    color: gray !important;
+  }
   &:focus {
     outline:none;
   }
@@ -177,4 +184,14 @@
 
 .navbar-brand {
   visibility: hidden;
+}
+
+.goBack {
+  a {
+    color: $darkTxt;
+    @include rem(padding, 15px 5px);
+    &:hover {
+      color: gray;
+    }
+  }
 }
