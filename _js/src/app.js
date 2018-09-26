@@ -58,23 +58,16 @@ $('.image-link').magnificPopup({
   }
 });
 
-// $('.hamburger').magnificPopup({
-//   items: {
-//       src: '.homeNav',
-//       type: 'inline',
-//       mainClass: 'menuOverlay'
-//   },
-//   modal: {
-//     enabled: true
-//   }
-// });
-
 var hamburger = document.querySelector('.hamburger');
+var homeNav = document.querySelector('.homeNav');
 hamburger.addEventListener('click', function(){
 if (hamburger.classList.contains('is-active')) {
   $.magnificPopup.close();
   hamburger.classList.toggle('is-active');
+  homeNav.classList.remove('mfp-hide');
+
 } else {
+  
   hamburger.classList.toggle('is-active');
   
   $.magnificPopup.open({
@@ -88,9 +81,30 @@ if (hamburger.classList.contains('is-active')) {
     }
 });
 }
-
-
 });
+
+(function($) {
+	
+	/*
+	* We need to turn it into a function.
+	* To apply the changes both on document ready and when we resize the browser.
+	*/
+	
+	function mediaSize() { 
+		/* Set the matchMedia */
+		if (window.matchMedia('(min-width: 768px)').matches && hamburger.classList.contains('is-active')) {
+      $.magnificPopup.close();
+      hamburger.classList.toggle('is-active');
+      homeNav.classList.remove('mfp-hide');
+		} 
+	};
+	
+	/* Call the function */
+  mediaSize();
+  /* Attach the function to the resize event listener */
+	window.addEventListener('resize', mediaSize, false);  
+	
+})(jQuery);
 
 var uLink = document.querySelector('.uniLink');
 var benUni = document.querySelector('.benUni');
