@@ -1,4 +1,51 @@
 /* Navigation */
+
+.homeHead {
+  position: absolute;
+  top: 0;
+  right:0;
+  z-index: 9999;
+  .hamburger {
+    display: none;
+    &:focus {
+      outline: none;
+    }
+    @include media-breakpoint-down(sm) {
+      display:block;
+    }
+  }
+  ul.homeNav {
+    @include media-breakpoint-down(sm) {
+      display:none;
+    }
+    @include transition(all, 200ms, ease-in-out);
+    padding: 0 0;
+    margin: 1.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    display: flex;
+    li {
+      list-style-type: none;
+      margin: 0 1rem;
+      a {
+        @include rem(font-size, 14px);
+        color: $darkTxt;
+        font-weight: 700;
+        border-bottom: 2px solid white;
+        @include transition(all, 200ms, ease-in-out);
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid $linkGreen;
+        }
+      }
+    }
+  }
+}
+
 .navbar {
   @include rem(height, 65px);
 }

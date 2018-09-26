@@ -58,16 +58,39 @@ $('.image-link').magnificPopup({
   }
 });
 
+// $('.hamburger').magnificPopup({
+//   items: {
+//       src: '.homeNav',
+//       type: 'inline',
+//       mainClass: 'menuOverlay'
+//   },
+//   modal: {
+//     enabled: true
+//   }
+// });
 
-$('.ajax-popup-link').magnificPopup({
-  type: 'ajax',
-  mainClass: 'mfp-move-from-top',
-  removalDelay: 400,
-  fixedContentPos: true,
-  closeBtnInside: true,
+var hamburger = document.querySelector('.hamburger');
+hamburger.addEventListener('click', function(){
+if (hamburger.classList.contains('is-active')) {
+  $.magnificPopup.close();
+  hamburger.classList.toggle('is-active');
+} else {
+  hamburger.classList.toggle('is-active');
+  
+  $.magnificPopup.open({
+    items: {
+        src: '.homeNav' 
+    },
+    type: 'inline',
+    mainClass: 'menuOverlay',
+    modal: {
+      enabled: true
+    }
 });
+}
 
 
+});
 
 var uLink = document.querySelector('.uniLink');
 var benUni = document.querySelector('.benUni');

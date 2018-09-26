@@ -1,13 +1,15 @@
 /* Home Page */
 
+
 #homeHero  {
     height: 100vh;
      
   .rowHero {
+    height:90vh;
     align-items:center;
-    @include rem(padding, 120px 0 0 0 );
     @include media-breakpoint-down(sm) {
       @include rem(padding, 80px 0 0 0 );
+      height:auto;
       }
     @media (max-height: 700px) {
         @include rem(padding, 60px 0 0 0 );
