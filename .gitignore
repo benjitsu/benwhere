@@ -3,3 +3,7 @@
 
 # ignore compiled site
 /_site/
+
+#photos
+
+/photos/
