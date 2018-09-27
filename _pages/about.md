@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: portpage
 title: About
 permalink: /about/
 ---

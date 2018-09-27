@@ -1,0 +1,10 @@
+#photoGrid {
+	columns:3;
+    column-gap: 1.5rem;
+    @include rem(margin, 180px 0);
+}
+.tile {
+	margin-bottom:1.5rem;
+	/* No cross browser 'break-inside' property being supported yet: */
+	display:inline-block;
+}

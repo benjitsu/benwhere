@@ -1,5 +1,62 @@
 /* Navigation */
 
+.menuOverlay {
+  ul.homeNav {
+    li {
+      list-style-type:none;
+      @include rem(padding, 5px 0)
+      a {
+        @include rem(font-size, 32px);
+        font-weight: 700;
+        color: $darkTxt;
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid $linkGreen;
+
+        }
+      }
+    }
+  }
+}
+
+.mfp-fade {
+  /* start state */
+  .mfp-content {
+    opacity: 0;
+    transition: all 0.4s;
+  }
+  
+  &.mfp-bg {
+    opacity: 0;
+      transition: all 0.4s;
+  }
+  
+  /* animate in */
+  &.mfp-ready {
+    .mfp-content {
+      opacity: 1;
+     
+    }
+    &.mfp-bg {
+      opacity: 1;
+    }
+  }
+  
+  /* animate out */
+  &.mfp-removing {
+    
+    .mfp-content {
+      opacity: 0;
+    }
+    &.mfp-bg {
+      opacity: 0;
+    }
+    
+  }
+  
+}
+
+
 .homeHead {
   position: absolute;
   top: 0;
@@ -234,9 +291,17 @@
 }
 
 .goBack {
+  margin: 16px;
+  position: absolute;
+  top: 0;
+  left:0;
   a {
+    @include media-breakpoint-down(sm) {
+      @include rem(padding, 0 0);
+    }
     color: $darkTxt;
-    @include rem(padding, 15px 5px);
+    @include rem(padding,8px 16px);
+    display: inline-block;
     &:hover {
       color: gray;
     }

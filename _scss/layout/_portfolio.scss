@@ -1,5 +1,8 @@
 #portfolioHero {
-    @include rem (margin, 50px 0 120px 0);
+    @include rem (margin, 150px 0 120px 0);
+    @include media-breakpoint-down(sm) {
+        @include rem (margin, 120px 0 120px 0);
+    }
     h1 {
     @include media-breakpoint-down(sm) { 
         @include rem (font-size, 48px);
@@ -126,3 +129,4 @@
     
   }
   
+

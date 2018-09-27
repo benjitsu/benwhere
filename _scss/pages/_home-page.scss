@@ -99,11 +99,13 @@
     }
     .uniHello {
       opacity: 1;
+      z-index: 9999;
     }
   }
 }
 
 #Design {
+  @include rem(padding-top, 50px);
   @include rem(margin-bottom, 150px);
   min-height: 100vh;
   .controls {

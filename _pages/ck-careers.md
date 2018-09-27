@@ -24,7 +24,7 @@ permalink: /ck-careers/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p>When I started with Credit Karma, they were rapidly scalling in size and had very ambitious hiring goals. At the time, the careers section of their website was very outdated and difficult to navigate through. It was a very competative hiring market for many positions, having a disfunctional careers section would not cut it. It would be most candidates first point of contact with the company, it was imperative that they received a positive first impression and could easily find information about open positions.</p>
+                <p>When I started with Credit Karma, they were rapidly scalling in size and had very ambitious hiring goals. The careers section of their website was very outdated and difficult to navigate through. The careers section would be most candidates first point of contact with the company, it was imperative that they received a positive first impression. The challenge was to redesign this section of the homepage to present the best qualities of the company and make the job listings easily accessible.</p>
                 <p class="role">My role: design and hand-off to front-end.</p>
             </div>
         </div>
@@ -69,7 +69,7 @@ permalink: /ck-careers/
         </div>
         <div class="row">
             <div class="col">
-                Before diving into any design work, I started with interviewing a few of the new engineers recently hired at the company to get better insight on what things they found most important in a careers section. This helped inform which sections to emphasize, and the overall tone and messaging. I then built out wireframes for the pages and collaborated with copywriters and members from the recruiting team to fine-tune the layout and messaging. The last step was visual design and selecting images.
+                Before diving into any design work, I started with interviewing a few of the employees recently hired at the company to get better insight on the things they found most important in a careers section. This helped inform which sections to emphasize, and the overall tone and messaging. I collaborated closely with a copywriter and members of the recruiting team to decide on exactly what messaging and kind of images we wanted to use. I then built out wireframes for the pages, and after a bit of fine-tuning and adjustments, the last step was the visual design and final section of images.
             </div>
         </div>
         <!-- <div class="row mt-3">

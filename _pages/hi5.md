@@ -24,11 +24,12 @@ permalink: /hi5-networks/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">When I started working at hi5 they were one of the most popular and heavily visited social networks
+                <p>When I started working at hi5 they were one of the most popular and heavily visited social networks
                     worldwide. They had also just embarked on transitioning into a complete social gaming platform. Despite their
                     success to that point, their visual identity and UI design was incredibly antiquated and incongruent with
                     their future trajectory. The challenge was to design a new logo and UI pattern that clearly communicated
                     that hi5 was a fun, hip, and modern destination for gaming.</p>
+                    <p class="role">My role: design.</p>
             </div>
         </div>
    </div>
@@ -143,6 +144,18 @@ permalink: /hi5-networks/
                         header and removing background gradients.</p>
                 </div>
             </div>
+
+            <div class="row space">
+                    <div class="col">
+                        <img class="img-fluid shadowBg" src="/img/work/resident_evil.jpg" >
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <p class="comment mb-0">Logged-out homepage with our new header bar and an advertising takeover.</p>
+                    </div>
+                </div>
+
        </div>
     </div>
 

@@ -24,7 +24,7 @@ permalink: /ck-tax-social-media/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">Free tax filing service was a new Credit Karma product offering that only a small portion of members took advantage of. As we approached the tax filing season, I was tasked with creating this Facebook ad to help promote the awareness of our product and to remind users that it will save them money.  </p>
+                <p class="mb-0">Free tax filing was a new Credit Karma product offering that only a small portion of members took advantage of. As we approached the tax filing season, I was tasked with creating this Facebook ad to help promote the awareness of the service and to remind users that it will save them money.</p>
             </div>
         </div>
    </div>

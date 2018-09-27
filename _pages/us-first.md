@@ -24,7 +24,8 @@ permalink: /us-first/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">In the wake of the financial collapse of 2008, there was a very strong anti-bank sentiment in the United States, and many consumers were looking to alternatives for their banking needs. US First, a credit untion, was poised to fill that roll. I designed this set of display ads to promote their "Shecking" product – a hybrid saving and checking account. The challenge was to both clearly communicate the value propostions of the account and the fact that US First was a credit union and not a bank.</p>
+                <p>In the wake of the financial collapse, there was a very strong anti-bank sentiment in the United States, and many consumers were looking to alternatives for their banking needs. US First, a credit untion, was poised to fill that roll. I designed this set of display ads to promote their "Shecking" product – a hybrid saving and checking account. The challenge was to both clearly communicate the value propostions of the account and the fact that US First was a credit union and not a bank.</p>
+                <p class="role">My role: design and animation.</p>
             </div>
         </div>
    </div>
