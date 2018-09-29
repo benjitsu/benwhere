@@ -24,12 +24,8 @@ permalink: /hi5-gift-store/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p>When I started working at hi5 they were one of the most popular and heavily visited social networks
-                    worldwide. They had also just embarked on transitioning into a complete social gaming platform. Despite their
-                    success to that point, their visual identity and UI design was incredibly antiquated and incongruent with
-                    their future trajectory. The challenge was to design a new logo and UI pattern that clearly communicated
-                    that hi5 was a fun, hip, and modern destination for gaming.</p>
-                    <p class="role">My role: design.</p>
+                <p>As hi5 progressed from traditional social networking site to a social gaming platform, they implemented a coins and gifts feature. Coins could be purchased and used for playing games or buying gifts to send. To increase gift sending among members I was tasked with creating a store where members could browse gifts and easily purchase and send them to friends.</p>
+                    <p class="role">My role: design and hand-off to front-end.</p>
             </div>
         </div>
    </div>
@@ -48,29 +44,10 @@ permalink: /hi5-gift-store/
         </div>
         <div class="row">
             <div class="col">
-                <img class="img-fluid shadowBg" src="/img/work/hi5-process-1.jpg" height="400px" width="800px">
+               <p>I worked closely with the product manager and engineering lead to determine the functionality of the gift store. Based on the data we had about previous interactions on our platform, we decided that birthdays and top friends would be the main things to promote beside the gifts. We then drew up wireframes covering all the interactions, error states, and edge cases. Lastly I produced the visual design and worked with front-end to impelement.</p>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col">
-                <p class="comment mb-0">The logo started to take shape once I found the right 5 form. It was imperative that
-                    the 5 clearly read as a 5 and not the letter S. I knew I wanted a slab serif form as it would have the best
-                    legibility and gave a nod to the Vegas style slot machine numbers</p>
-            </div>
-        </div>
-    
-        <div class="row space">
-            <div class="col">
-                <img class="img-fluid shadowBg" src="/img/work/hi5-process-2.jpg" height="400px" width="800px">
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col">
-                <p class="comment mb-0">I experimented with many different highlight colors throughout the process. Focus group
-                    feedback helped us narrow down which options users responded best to. Orange was ultimately chosen as it
-                    had been a color historicaly used by hi5.</p>
-            </div>
-        </div>
+        
 </div>
 </div>
 <!--the process end-->
@@ -91,7 +68,7 @@ permalink: /hi5-gift-store/
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <p class="comment mb-0">hi5 light, the new primary company logo.</p>
+                    <p class="comment mb-0">Gift store landing page.</p>
                 </div>
             </div>
     
@@ -102,7 +79,7 @@ permalink: /hi5-gift-store/
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <p class="comment mb-0">hi5 dark, the secondary logo.</p>
+                    <p class="comment mb-0">Upon selection of a gift the checkout bar would appear on top and prompt you choose a recipient.</p>
                 </div>
             </div>
     
@@ -113,8 +90,7 @@ permalink: /hi5-gift-store/
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <p class="comment mb-0">We incrementally made adjustments to simplify the site UI, starting with a new profile
-                        header and removing background gradients.</p>
+                    <p class="comment mb-0">The user could then review the gift and recipient and make changes as needed.</p>
                 </div>
             </div>
 
@@ -125,7 +101,7 @@ permalink: /hi5-gift-store/
                 </div>
                 <div class="row mt-3">
                     <div class="col">
-                        <p class="comment mb-0">Logged-out homepage with our new header bar and an advertising takeover.</p>
+                        <p class="comment mb-0">The user could then preview the gift and message before sending.</p>
                     </div>
                 </div>
 

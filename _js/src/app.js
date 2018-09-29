@@ -147,7 +147,7 @@ var grid = document.getElementById('photoGrid');
 function makeGallery(){
 var galleryHTML = '';
 for (i=1; i<photoNumber; i++){
-    galleryHTML += '<a class="tile" href="' + fullPath + 'img-' + i + '.jpg">' + '<img class="img-fluid" src="' + thumbPath + 'img-' + i + '.jpg">' + '</a>';
+    galleryHTML += '<a class="tile" href="' + fullPath + 'img-' + i + '.jpg">' + '<img class="img-fluid" src="' + thumbPath + 'img-' + i + '.jpg">' + '<div class="overlay"></div>' + '</a>';
 }
 return galleryHTML;
 };
