@@ -162,8 +162,9 @@ $('#photoGrid').each(function() { // the containers for all your galleries
       gallery: {
         enabled:true
       },
-      mainClass: 'mfp-fade',
+      mainClass: 'mfp-fade photoOverlay',
     removalDelay: 400,
+    tCounter: false,
   });
 });
 };

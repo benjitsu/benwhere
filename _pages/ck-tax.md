@@ -24,7 +24,8 @@ permalink: /ck-tax-social-media/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">Free tax filing was a new Credit Karma product offering that only a small portion of members took advantage of. As we approached the tax filing season, I was tasked with creating this Facebook ad to help promote the awareness of the service and to remind users that it will save them money.</p>
+                <p class="mb-0">Free tax filing was a new Credit Karma product offering that only a small portion of members took advantage of. As we approached the tax filing season, I was tasked with creating a Facebook ad to help promote awareness of the service and to remind users that it will save them money.</p>
+                <p class="role">My role: design and animation.</p>
             </div>
         </div>
    </div>
@@ -39,7 +40,7 @@ permalink: /ck-tax-social-media/
         <div class="row">
             <div class="col">
                 <h2>The Process</h2>
-                <p class="mb-0">I concepted the idea of using a retro video game visual to emphasize how most tax filing services offer a free product but then add hidden fees that chip away at your final refund. To contrast the Credit Karma product, which is completely free. </p>
+                <p class="mb-0">I conceived the idea of using a retro video game visual to emphasize how most tax filing services offer a free product but then add hidden fees that chip away at your final refund. To contrast the Credit Karma product, which is completely free. </p>
             </div>
         </div>
 </div>

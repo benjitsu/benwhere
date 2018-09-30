@@ -8,10 +8,18 @@
   .big {
     @include rem(font-size, 40px)
     @include rem(line-height, 40px)
-    font-weight: 700;
+    font-weight: 900;
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+      @include rem(font-size, 30px)
+    @include rem(line-height, 30px)
+    }
   }
   .small {
     @include rem(font-size, 15px)
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
     a {
       color: skyblue;
       @include transition(all, 200ms, linear);

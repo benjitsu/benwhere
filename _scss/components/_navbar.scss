@@ -1,5 +1,8 @@
 /* Navigation */
+.mfp-bg.menuOverlay {
+  background-color: rgb(226, 235, 235);
 
+}
 .menuOverlay {
   ul.homeNav {
     li {
@@ -55,14 +58,13 @@
   }
   
 }
-
-
 .homeHead {
   position: absolute;
   top: 0;
   right:0;
-  z-index: 9999;
+  z-index: 1044;
   button.hamburger {
+    z-index: 9999;
     display: none;
     &:focus {
       outline: none;

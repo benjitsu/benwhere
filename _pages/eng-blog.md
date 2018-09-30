@@ -24,7 +24,8 @@ permalink: /engineering-blog-editorial/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">The Credit Karma engineering blog was created to help publicize the company's engineering culture and recruite new candidates. To make the individual articles more engaging and sharable on social media, we began creating custom graphics for each post. I developed the initial retro fruturisc style and designed many of the individual posts graphics. The challenge was always to distill complex engineering concepts into an image that would be understanable when combined with just the headline. </p>
+                <p class="mb-0">The Credit Karma engineering blog was created to publicize the company's engineering culture and help recruit new employees. To make the individual articles more engaging and shareable on social media, we began creating custom graphics for each post. I developed the initial retro-futuristic style and designed many of the individual posts graphics. The challenge was always to distill complex engineering concepts into an image that would be understandable when combined with just the headline. </p>
+                <p class="role">My role: design.</p>
             </div>
         </div>
    </div>

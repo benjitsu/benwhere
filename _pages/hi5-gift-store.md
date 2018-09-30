@@ -24,7 +24,7 @@ permalink: /hi5-gift-store/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p>As hi5 progressed from traditional social networking site to a social gaming platform, they implemented a coins and gifts feature. Coins could be purchased and used for playing games or buying gifts to send. To increase gift sending among members I was tasked with creating a store where members could browse gifts and easily purchase and send them to friends.</p>
+                <p>As hi5 progressed from a traditional social networking site to a social gaming platform, they implemented a coins and gifts feature. Coins could be purchased and used for playing games or buying gifts to send. To increase gift sending among members I was tasked with creating a store where members could browse gifts and easily purchase and send them to friends.</p>
                     <p class="role">My role: design and hand-off to front-end.</p>
             </div>
         </div>
@@ -44,7 +44,7 @@ permalink: /hi5-gift-store/
         </div>
         <div class="row">
             <div class="col">
-               <p>I worked closely with the product manager and engineering lead to determine the functionality of the gift store. Based on the data we had about previous interactions on our platform, we decided that birthdays and top friends would be the main things to promote beside the gifts. We then drew up wireframes covering all the interactions, error states, and edge cases. Lastly I produced the visual design and worked with front-end to impelement.</p>
+               <p>I worked closely with the product manager and engineering lead to determine the functionality of the gift store. Based on the data we had about previous interactions on our platform, we decided that birthdays and top friends would be the main things to promote next to gifts. We then drew up wireframes covering all the interactions, error states, and edge cases. Lastly, I produced the visual design and worked with front-end to implement.</p>
             </div>
         </div>
         
@@ -79,7 +79,7 @@ permalink: /hi5-gift-store/
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <p class="comment mb-0">Upon selection of a gift the checkout bar would appear on top and prompt you choose a recipient.</p>
+                    <p class="comment mb-0">Upon selection of a gift, the checkout bar would appear on top and prompt you to choose a recipient.</p>
                 </div>
             </div>
     
