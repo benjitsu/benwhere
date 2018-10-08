@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="container h-100">
+<div class="container reveal load-hidden up h-100">
     <div class="row h-100">
         <div class="col-lg-6 align-self-center contactPage">
                 <div class="d-block big mb-4">Where ya been, Ben?</div>

@@ -5,6 +5,11 @@ var mixitup = require('mixitup');
 var magnificPopup = require('magnific-popup');
 var matchHeight = require('jquery-match-height');
 
+var ScrollReveal = require('scrollreveal');
+
+ScrollReveal().reveal('.reveal',{ interval: 300 });
+ScrollReveal().reveal('.up',{ distance: '20px'});
+
 var design = document.getElementById('Design');
 
 if (design) {
@@ -133,27 +138,40 @@ var benUni = document.querySelector('.benUni');
 if(uLink){
 uLink.addEventListener('click', function(){
 benUni.classList.toggle('uniHello');
+benUni.classList.remove('vHidden');
 });
 };
 
 // gallery
 
-var photoNumber = 34;
-var thumbPath = '/photos/thumbs/';
-var fullPath = '/photos/full/';
+// var photoNumber = 34;
+// var thumbPath = '/photos/thumbs/';
+// var fullPath = '/photos/full/';
 
-var grid = document.getElementById('photoGrid');
+ var grid = document.getElementById('photoGrid');
 
-function makeGallery(){
-var galleryHTML = '';
-for (i=1; i<photoNumber; i++){
-    galleryHTML += '<a class="tile" href="' + fullPath + 'img-' + i + '.jpg">' + '<img class="img-fluid" src="' + thumbPath + 'img-' + i + '.jpg">' + '<div class="overlay"></div>' + '</a>';
-}
-return galleryHTML;
-};
+// function makeGallery(){
+// var galleryHTML = '';
+// for (i=1; i<photoNumber; i++){
+//     galleryHTML += '<a class="tile" href="' + fullPath + 'img-' + i + '.jpg">' + '<img class="img-fluid gal-img-' + i + '" src="' + thumbPath + 'img-' + i + '.jpg">' + '<div class="overlay"></div>' + '</a>';
+
+// }
+// return galleryHTML;
+
+// };
+
 
 if (grid){
-grid.innerHTML = makeGallery();
+// grid.innerHTML = makeGallery();
+
+
+// for (i=1; i<photoNumber; i++){
+//     var img = document.querySelector('.gal-img-' + i);
+//     var width = img.naturalWidth;
+//     var height = img.naturalHeight;
+//     img.width = width;
+//     img.height = height;
+// };
 
 $('#photoGrid').each(function() { // the containers for all your galleries
   $(this).magnificPopup({
@@ -168,3 +186,4 @@ $('#photoGrid').each(function() { // the containers for all your galleries
   });
 });
 };
+

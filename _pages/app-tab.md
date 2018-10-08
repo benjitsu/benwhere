@@ -61,7 +61,7 @@ permalink: /app-tab/
         </div>
         <div class="row mt-3">
             <div class="col">
-                <p class="comment mb-0">High fidelity user flow</p>
+                <p class="comment mb-0">High fidelity user flow.</p>
             </div>
         </div>
     

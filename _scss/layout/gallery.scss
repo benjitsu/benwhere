@@ -3,8 +3,17 @@
     column-gap: 1.5rem;
     @include rem(margin, 180px 0);
     min-height: 100vh;
+    @include media-breakpoint-down(sm) {
+        columns:2;
+    }
+    @include media-breakpoint-down(xs) {
+        columns:1;
+    }
 }
 a.tile {
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+    }
 	margin-bottom:1.5rem;
 	/* No cross browser 'break-inside' property being supported yet: */
     display:inline-block;
