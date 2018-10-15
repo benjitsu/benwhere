@@ -25,7 +25,7 @@ permalink: /credit-karma-email-design/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0"> The goal of these projects was to create a delightful and engaging experience for the user, that would quickly communicate a message, without deviating from our brand style. The message of each email varied anywhere from a simple account update, to a fraud alert, to a new product promotion. As such, the end-goal and success metrics for each campaign also varied greatly. </p>
+                <p> The goal of these projects was to create a delightful and engaging experience for the user, that would quickly communicate a message, without deviating from our brand style. The message of each email varied anywhere from a simple account update, to a fraud alert, to a new product promotion. As such, the end-goal and success metrics for each campaign also varied greatly. </p>
                 <p class="role">My role: design and animation.</p>
 
                

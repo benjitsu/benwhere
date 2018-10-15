@@ -24,7 +24,7 @@ permalink: /ck-sandiego-outdoor/
         <div class="row">
             <div class="col">
                 <h2>The Challenge</h2>
-                <p class="mb-0">This campaign was created to boost new member signups and reactivate dormant users in urban areas that interactive and TV ads didn’t penetrate well. I was tasked with creating a theme for the ads and designing all the outdoor adverting pieces. It included bus wraps, billboards, transit center ads, bus interior ads, and taxi toppers. These pieces ran for a month in the city of San Diego in conjunction with bilingual radio ads. </p>
+                <p>This campaign was created to boost new member signups and reactivate dormant users in urban areas that interactive and TV ads didn’t penetrate well. I was tasked with creating a theme for the ads and designing all the outdoor adverting pieces. It included bus wraps, billboards, transit center ads, bus interior ads, and taxi toppers. These pieces ran for a month in the city of San Diego in conjunction with bilingual radio ads. </p>
                 <p class="role">My role: design and production.</p>
             </div>
         </div>

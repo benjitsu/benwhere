@@ -33,9 +33,16 @@
         font-weight: 400;
     }
     .pod {
+        @include media-breakpoint-down(sm) { 
+            @include rem(margin-top, 70px);
+            @include rem(margin-bottom, 70px);
+        }
         @include rem(margin-top, 120px);
         @include rem(margin-bottom, 120px);
     .space {
+        @include media-breakpoint-down(sm) { 
+            @include rem(margin-top, 40px);
+        }
         @include rem(margin-top, 120px);
     }
     }
