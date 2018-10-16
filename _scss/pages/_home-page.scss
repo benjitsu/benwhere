@@ -47,12 +47,14 @@
       display:inline-block;
       position: relative;
       z-index: 2;
+      @include media-breakpoint-up(sm) {
       &:hover {
         cursor: pointer;
         .uBar {
           bottom:-3px;
         }
       }
+    }
       .uBar {
         width: 100%;
         height: 4px;
