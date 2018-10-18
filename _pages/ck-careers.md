@@ -96,10 +96,38 @@ permalink: /ck-careers/
                     <img class="img-fluid shadowBg" src="/img/work/whole-page.jpg">
                 </div>
             </div>
-        
-            <div class="row space">
+            <div class="row mt-3">
+                <div class="col">
+                    <p class="comment mb-0">Careers landing page</p>
+                </div>
+            </div>
+           
+
+                <div class="row space">
                     <div class="col">
                         <img class="img-fluid shadowBg" src="/img/work/whole-page-2.jpg">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <p class="comment mb-0">Open positions page</p>
+                    </div>
+                </div>
+
+                <div class="row space">
+                    <div class="col">
+                        <img class="img-fluid" src="/img/work/careers-1-mobile.jpg">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <p class="comment mb-0">In mobile view, the departments list is pushed to the top of the page.</p>
+                    </div>
+                </div>
+
+                <div class="row space">
+                    <div class="col">
+                        <img class="img-fluid" src="/img/work/careers-2-mobile.jpg">
                     </div>
                 </div>
                 
