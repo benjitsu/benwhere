@@ -36,4 +36,5 @@ $hamburger-layer-width         : 25px !default;
 $hamburger-layer-height        : 2px !default;
 $hamburger-layer-spacing       : 5px !default;
 $hamburger-layer-color         : $darkTxt;
+$hamburger-active-layer-color  : white;
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";

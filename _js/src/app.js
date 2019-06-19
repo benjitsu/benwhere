@@ -102,6 +102,16 @@ if (hamburger.classList.contains('is-active')) {
       enabled: true
     }
 });
+var designLink = document.querySelector('.designLink');
+designLink.addEventListener('click', function(){
+  $.magnificPopup.close();
+  hamburger.classList.toggle('is-active');
+  
+  setTimeout(function(){
+    homeNav.classList.remove('mfp-hide');
+  },500);
+});
+
 }
 });
 

@@ -1,8 +1,5 @@
 /* Navigation */
-.mfp-bg.menuOverlay {
-  background-color: rgb(226, 235, 235);
 
-}
 .menuOverlay {
   ul.homeNav {
     li {
@@ -11,7 +8,7 @@
       a {
         @include rem(font-size, 32px);
         font-weight: 700;
-        color: $darkTxt;
+        color: white;
         &:hover {
           text-decoration: none;
           border-bottom: 2px solid $linkGreen;
