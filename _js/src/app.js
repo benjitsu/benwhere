@@ -1,7 +1,6 @@
 window.$ = window.jQuery = require('jquery');
 global.Popper = require('popper.js');
 var bootstrap = require('bootstrap');
-var mixitup = require('mixitup');
 var magnificPopup = require('magnific-popup');
 var matchHeight = require('jquery-match-height');
 
@@ -10,15 +9,6 @@ var ScrollReveal = require('scrollreveal');
 ScrollReveal().reveal('.reveal',{ interval: 300 });
 ScrollReveal().reveal('.up',{ distance: '20px'});
 
-var design = document.getElementById('Design');
-
-if (design) {
-var mixer = mixitup('.items .row', {
-  selectors: {
-      control: '[data-mixitup-control]'
-  }
-});
-};
 
 $('.dropdown-chevron-mobile').on('click', function(e) {
 
