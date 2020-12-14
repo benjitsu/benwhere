@@ -1,0 +1,21 @@
+.blogList {
+    @include rem(margin-top, 180px);
+    
+    .post {
+      
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+            h2 {
+                font-size: 3rem;
+                color: $darkTxt;
+                font-weight: 700;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

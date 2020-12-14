@@ -1,3 +1,61 @@
+// 8pt Spacers Extended
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+    (
+        0: 0,
+        1: (
+            $spacer * 0.25,
+        ),
+        2: (
+            $spacer * 0.5,
+        ),
+        3: (
+            $spacer * 1,
+        ),
+        4: (
+            $spacer * 1.5,
+        ),
+        5: (
+            $spacer * 2,
+        ),
+        6: (
+            $spacer * 2.5,
+        ),
+        7: (
+            $spacer * 3,
+        ),
+        8: (
+            $spacer * 3.5,
+        ),
+        9: (
+            $spacer * 4,
+        ),
+        10: (
+            $spacer * 4.5,
+        ),
+        11: (
+            $spacer * 5,
+        ),
+        12: (
+            $spacer * 6,
+        ),
+        13: (
+            $spacer * 8,
+        ),
+        14: (
+            $spacer * 10,
+        ),
+        15: (
+            $spacer * 12,
+        ),
+        16: (
+            $spacer * 16,
+        ),
+    ),
+    $spacers
+);
+
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -17,12 +75,14 @@ $fa-font-path: "../fonts/FontAwesome";
 
 /* Page */
 @import "pages/home-page";
+@import "pages/blog";
 
 /* Layout */
 @import "layout/header";
 @import "layout/page";
 @import "layout/footer";
 @import "layout/portfolio";
+@import "layout/gallery";
 @import "layout/gallery";
 
 /* Components */
@@ -32,9 +92,9 @@ $fa-font-path: "../fonts/FontAwesome";
 @import "typography/headings";
 
 /* Hamburgers */
-$hamburger-layer-width         : 25px !default;
-$hamburger-layer-height        : 2px !default;
-$hamburger-layer-spacing       : 5px !default;
-$hamburger-layer-color         : $darkTxt;
-$hamburger-active-layer-color  : white;
+$hamburger-layer-width: 25px !default;
+$hamburger-layer-height: 2px !default;
+$hamburger-layer-spacing: 5px !default;
+$hamburger-layer-color: $darkTxt;
+$hamburger-active-layer-color: white;
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
