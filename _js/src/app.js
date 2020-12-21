@@ -3,7 +3,20 @@ global.Popper = require('popper.js');
 var bootstrap = require('bootstrap');
 var magnificPopup = require('magnific-popup');
 var matchHeight = require('jquery-match-height');
+var lozad = require('lozad')
 
+
+// lozad loading
+lozad('.lozad', {
+  load: function(el) {
+      el.src = el.dataset.src;
+      // el.onload = function() {
+      //     el.classList.add('fadeImg')
+      // }
+  }
+}).observe()
+
+// scrollreveal
 var ScrollReveal = require('scrollreveal');
 
 ScrollReveal().reveal('.reveal',{ interval: 300 });
@@ -57,13 +70,6 @@ $('.designLink').click(function(){
 $('.pricing-card-features').matchHeight();
 $('.panel').matchHeight();
 
-/* Magnific Popup */
-$('.image-link').magnificPopup({
-  type:'image',
-  gallery: {
-    enabled: true
-  }
-});
 
 // hamburger
 var hamburger = document.querySelector('.hamburger');
@@ -144,34 +150,36 @@ benUni.classList.remove('vHidden');
 
 // gallery
 
-// var photoNumber = 34;
-// var thumbPath = '/photos/thumbs/';
-// var fullPath = '/photos/full/';
+//   var photoNumber = 60;
+//   var thumbPath = '/photos/thumbs/';
+//   var fullPath = '/photos/full/';
 
- var grid = document.getElementById('photoGrid');
+//   var grid = document.getElementById('photoGrid');
 
-// function makeGallery(){
-// var galleryHTML = '';
-// for (i=1; i<photoNumber; i++){
-//     galleryHTML += '<a class="tile" href="' + fullPath + 'img-' + i + '.jpg">' + '<img class="img-fluid gal-img-' + i + '" src="' + thumbPath + 'img-' + i + '.jpg">' + '<div class="overlay"></div>' + '</a>';
+//   function makeGallery(){
+//   var galleryHTML = '';
+//   for (i=1; i<photoNumber; i++){
+//       galleryHTML += '<div class="item"><a class="tile" href="' + fullPath + 'img-' + i + '.jpg">' + '<div class="overlay"></div>' + '<img class="lozad img-fluid gal-img-' + i + '"src="' + thumbPath + 'img-' + i + '.jpg">' + '</a></div>';
 
-// }
-// return galleryHTML;
+//   }
+//   return galleryHTML;
 
-// };
-
-
-if (grid){
-// grid.innerHTML = makeGallery();
+//   };
 
 
-// for (i=1; i<photoNumber; i++){
-//     var img = document.querySelector('.gal-img-' + i);
-//     var width = img.naturalWidth;
-//     var height = img.naturalHeight;
-//     img.width = width;
-//     img.height = height;
-// };
+//  if (grid){
+//   grid.innerHTML = makeGallery();
+
+//    for (i=1; i<photoNumber; i++){
+//        var img = document.querySelector('.gal-img-' + i);
+//        var width = img.naturalWidth;
+//        var height = img.naturalHeight;
+//        img.width = width;
+//        img.height = height;
+//    };
+//   };
+
+
 
 $('#photoGrid').each(function() { // the containers for all your galleries
   $(this).magnificPopup({
@@ -185,5 +193,3 @@ $('#photoGrid').each(function() { // the containers for all your galleries
     tCounter: false,
   });
 });
-};
-
