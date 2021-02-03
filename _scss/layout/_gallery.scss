@@ -26,6 +26,9 @@ a.tile {
         position: absolute;
         top: 0;
         @include transition(all, 300ms, linear);
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
     }
 }
 
