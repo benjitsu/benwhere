@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: page
+title: Design
+permalink: /design/
 ---
+
 {% include mainNav.html %}
 <section class="reveal up load-hidden" id="homeHero">
   <div class="container-full">

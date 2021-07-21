@@ -3,16 +3,14 @@
 .menuOverlay {
   ul.homeNav {
     li {
-      list-style-type:none;
-      @include rem(padding, 5px 0)
-      a {
+      list-style-type: none;
+      @include rem(padding, 5px 0) a {
         @include rem(font-size, 32px);
         font-weight: 700;
         color: white;
         &:hover {
           text-decoration: none;
           border-bottom: 2px solid $linkGreen;
-
         }
       }
     }
@@ -25,41 +23,38 @@
     opacity: 0;
     transition: all 0.4s;
   }
-  
+
   &.mfp-bg {
     opacity: 0;
-      transition: all 0.4s;
+    transition: all 0.4s;
   }
-  
+
   /* animate in */
   &.mfp-ready {
     .mfp-content {
       opacity: 1;
-     
     }
     &.mfp-bg {
       opacity: 1;
     }
   }
-  
+
   /* animate out */
   &.mfp-removing {
-    
     .mfp-content {
       opacity: 0;
     }
     &.mfp-bg {
       opacity: 0;
     }
-    
   }
-  
 }
 .homeHead {
   position: absolute;
   top: 0;
-  right:0;
+  right: 0;
   z-index: 1044;
+
   button.hamburger {
     z-index: 9999;
     display: none;
@@ -67,16 +62,47 @@
       outline: none;
     }
     @include media-breakpoint-down(sm) {
-      display:block;
+      display: block;
     }
   }
+
+  .logo {
+    svg {
+      margin-bottom: 2px;
+    }
+  }
+
+  .logo.white svg {
+    @include media-breakpoint-up(md) {
+      fill: white;
+    }
+  }
+
+  .white li a {
+    @include media-breakpoint-up(md) {
+      color: white !important;
+    }
+  }
+
+  .white .hamburger-inner,
+  .white .hamburger-inner::before,
+  .white .hamburger-inner::after {
+    @include media-breakpoint-up(md) {
+      background-color: white !important;
+    }
+  }
+
+  .hamburger {
+    padding: 0 0;
+  }
+
   ul.homeNav {
     @include media-breakpoint-down(sm) {
-      display:none;
+      display: none;
     }
     @include transition(all, 200ms, ease-in-out);
     padding: 0 0;
-    margin: 1.5rem;
+    margin: 0 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -84,14 +110,18 @@
     flex-direction: row;
     -webkit-box-pack: end;
     display: flex;
+
     li {
       list-style-type: none;
       margin: 0 1rem;
+      &:last-of-type {
+        margin-right: 0px;
+      }
       a {
         @include rem(font-size, 14px);
-        color: $darkTxt;
+        color: black;
         font-weight: 700;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid transparent;
         @include transition(all, 200ms, ease-in-out);
         &:hover {
           text-decoration: none;
@@ -105,7 +135,7 @@
 .navbar {
   @include rem(height, 65px);
 }
-@include media-breakpoint-up(lg){
+@include media-breakpoint-up(lg) {
   .navbar {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -123,7 +153,7 @@
   }
 }
 
-#navbarSupportedContent  {
+#navbarSupportedContent {
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
@@ -136,22 +166,21 @@
   -ms-flex-align: center;
   align-items: center;
   .show {
-    display:inline-flex;
+    display: inline-flex;
   }
 }
 
-
 .navbar-toggler {
   cursor: pointer;
-  border:none;
-  outline:none;
+  border: none;
+  outline: none;
   color: $darkTxt !important;
   opacity: 1;
   &:hover {
     color: gray !important;
   }
   &:focus {
-    outline:none;
+    outline: none;
   }
 }
 
@@ -170,7 +199,7 @@
   &:after {
     position: absolute;
     left: 40px;
-    content:'';
+    content: "";
     width: 0;
     height: 0;
     border-left: 12px solid transparent;
@@ -224,15 +253,14 @@
       opacity: 1;
     }
   }
-  position:relative;
+  position: relative;
   @include media-breakpoint-down(md) {
     border-bottom: 1px solid #eee;
   }
-
 }
 
 .nav-link {
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   font-size: 1rem;
   display: block;
   z-index: 1;
@@ -247,8 +275,6 @@
     margin-right: 58px;
   }
 }
-
-
 
 .dropdown-chevron-desktop {
   @include media-breakpoint-down(md) {
@@ -269,20 +295,20 @@
   }
   &:after {
     font-family: FontAwesome;
-    content: '\f078';
+    content: "\f078";
     font-size: 14px;
   }
 }
 
 .dropdown-chevron-mobile.open {
   &:after {
-    content: '\f077';
+    content: "\f077";
   }
 }
 
 .subcategory.open {
   display: block;
-  border-top:1px solid #eee;
+  border-top: 1px solid #eee;
 }
 
 .navbar-brand {
@@ -293,13 +319,13 @@
   margin: 16px;
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   a {
     @include media-breakpoint-down(sm) {
       @include rem(padding, 0 0);
     }
     color: $darkTxt;
-    @include rem(padding,8px 16px);
+    @include rem(padding, 8px 16px);
     display: inline-block;
     &:hover {
       color: gray;

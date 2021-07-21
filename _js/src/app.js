@@ -181,7 +181,7 @@ benUni.classList.remove('vHidden');
 
 
 
-$('#photoGrid').each(function() { // the containers for all your galleries
+$('#photoGrid, .blogPost').each(function() { // the containers for all your galleries
   $(this).magnificPopup({
       delegate: 'a', // the selector for gallery item
       type: 'image',

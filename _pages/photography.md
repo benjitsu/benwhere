@@ -4,7 +4,7 @@ title: Photography
 permalink: /photography/
 ---
 
-<div class="container-fluid reveal load-hidden up my-14">
+<div class="container-fluid reveal load-hidden up my-14 px-lg-6">
     <div id="photoGrid" class="masonry">
      <div class="item">
     <a class="tile" href="/photos/full/img-1.jpg"

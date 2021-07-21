@@ -1,15 +1,12 @@
 # example /_data/navigation.yml
- - title: "About"
-   href: /about/
+ - title: "Blog"
+   href: /
 
  - title: "Photography"
    href: /photography/
    
  - title: "Design"
-   href: /home/
+   href: /design/
 
- - title: "Resume"
-   href: /resume/
-
- - title: "Contact"
-   href: /contact/
+ - title: "About"
+   href: /about/
