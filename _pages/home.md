@@ -6,13 +6,13 @@ permalink: /
 
 <div class="container reveal load-hidden up h-100 blogList">
     <div class="row h-100">
-        <div class="col-lg-9">
+        <div class="col-lg-7">
 
 {% for post in site.posts %}
 
   <div class="post">
   <a href="{{ post.url }}">
-  <div class="postImg">
+  <div class="postImg position-relative">
 <div class="overlay"></div>
     <img src="{{ post.hero }}">
     </div>

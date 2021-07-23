@@ -67,14 +67,22 @@
   }
 
   .logo {
-    svg {
-      margin-bottom: 2px;
+    &:hover {
+      transform: translateY(-1px);
+      opacity: 0.6;
+      @include transition(all, 200ms, ease-out);
     }
-  }
-
-  .logo.white svg {
-    @include media-breakpoint-up(md) {
-      fill: white;
+    a {
+      svg {
+        margin-bottom: 2px;
+      }
+    }
+    &.white {
+      svg {
+        @include media-breakpoint-up(md) {
+          fill: white;
+        }
+      }
     }
   }
 
