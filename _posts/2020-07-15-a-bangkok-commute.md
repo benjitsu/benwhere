@@ -2,7 +2,7 @@
 layout: blogPost
 title: A Bangkok Commute
 permalink: /a-bangkok-commute/
-hero: /photos/blog/klong/klong-4.jpg
+hero: /photos/blog/klong/hero.jpg
 exerpt: An exploration of one of the many commuter water bus's running daily in the canals that transverse Bangkok's urban landscape.
 ---
 

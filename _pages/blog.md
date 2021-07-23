@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="container reveal load-hidden up h-100 blogList">
     <div class="row h-100">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-7">
 
 {% for post in site.posts %}
 
