@@ -1,10 +1,8 @@
 .blogList {
-    @include rem(margin-top, 180px);
-
     .post {
         &:hover {
             .overlay {
-                opacity: 0.5;
+                opacity: 0.3;
                 z-index: 9;
             }
         }
@@ -27,10 +25,24 @@
             &:hover {
                 text-decoration: none;
             }
-            h2 {
-                @include rem(font-size, 25px);
+            .date {
+                @include rem(font-size, 12px);
                 color: $darkTxt;
-                font-weight: 800;
+                opacity: 0.7;
+            }
+            h2 {
+                @include rem(font-size, 24px);
+                color: $darkTxt;
+                font-weight: 600;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            h3 {
+                @include rem(font-size, 20px);
+                color: $darkTxt;
+                font-weight: 600;
                 text-decoration: none;
                 &:hover {
                     text-decoration: none;
@@ -40,9 +52,10 @@
                 color: $darkTxt;
                 font-family: "Merriweather", serif;
                 line-height: 1.8;
-                @include rem(font-size, 17px);
+                @include rem(font-size, 15px);
                 text-decoration: none;
                 font-weight: 300;
+                opacity: 0.7;
                 &:hover {
                     text-decoration: none;
                 }
@@ -53,7 +66,7 @@
 
 .blogPost {
     h1 {
-        @include rem(font-size, 50px);
+        @include rem(font-size, 40px);
         @include media-breakpoint-down(sm) {
             @include rem(font-size, 30px);
         }
@@ -89,6 +102,7 @@
         height: 100vh;
         background-size: cover;
         position: relative;
+        background-position: center center;
         .content {
             z-index: 1;
             color: white;

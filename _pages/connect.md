@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: Connect
+permalink: /connect/
 ---
 
 <div class="container reveal load-hidden up h-100">

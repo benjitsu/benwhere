@@ -125,17 +125,31 @@
       &:last-of-type {
         margin-right: 0px;
       }
+      .designLink {
+        a {
+          @include rem(font-size, 14px);
+          color: black;
+          font-weight: 700;
+          border-bottom: 2px solid transparent;
+          @include transition(all, 200ms, ease-in-out);
+          padding-bottom: 4px;
+          &:hover,
+          &.active {
+            text-decoration: none;
+            border-bottom: 2px solid $linkGreen;
+          }
+        }
+      }
       a {
         @include rem(font-size, 14px);
         color: black;
         font-weight: 700;
-        border-bottom: 2px solid transparent;
         @include transition(all, 200ms, ease-in-out);
         padding-bottom: 4px;
         &:hover,
         &.active {
           text-decoration: none;
-          border-bottom: 2px solid $linkGreen;
+          color: #555;
         }
       }
     }

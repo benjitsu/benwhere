@@ -1,0 +1,9 @@
+# example /_data/navigation.yml
+ - title: "Design"
+   href: /design/
+
+ - title: "Resume"
+   href: /BenWeinstein-Resume.pdf/
+   
+ - title: "Connect"
+   href: /connect/
