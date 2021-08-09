@@ -1,4 +1,59 @@
+#photoSlider {
+    .carousel-inner {
+        height: 600px;
+        background-color: black;
+        .carousel-item {
+            height: 100%;
+            img {
+                object-fit: cover;
+                object-position: 50% 50%;
+                height: 100%;
+                opacity: 0.6;
+            }
+        }
+    }
+}
+
+.photoHero {
+    height: 600px;
+    background-color: black;
+    .details {
+        z-index: 2;
+        position: absolute;
+        bottom: 0px;
+        h1 {
+            color: white;
+            @include rem(font-size, 36px);
+            font-weight: 800;
+        }
+        .date {
+            color: white;
+            @include rem(font-size, 12px);
+            opacity: 1;
+        }
+        p {
+            color: white;
+            font-family: "Merriweather", serif;
+            line-height: 1.8;
+            @include rem(font-size, 17px);
+            text-decoration: none;
+            font-weight: 300;
+            opacity: 1;
+        }
+    }
+    img {
+        object-fit: cover;
+        object-position: 50% 50%;
+        height: 100%;
+        opacity: 0.6;
+        width: 100%;
+    }
+}
+
 .blogList {
+    .row {
+        max-width: 1440px;
+    }
     .post {
         &:hover {
             .overlay {
@@ -31,7 +86,7 @@
                 opacity: 0.7;
             }
             h2 {
-                @include rem(font-size, 24px);
+                @include rem(font-size, 20px);
                 color: $darkTxt;
                 font-weight: 600;
                 text-decoration: none;

@@ -4,12 +4,11 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="container reveal load-hidden up h-100 blogList">
-    <div class="row h-100">
+<div class="container reveal load-hidden blogList">
+    <div class="row">
         <div class="col-lg-7">
 
 {% for post in site.posts %}
-
   <div class="post">
   <a href="{{ post.url }}">
     <img src="{{ post.hero }}">
