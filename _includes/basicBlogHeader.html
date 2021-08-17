@@ -1,6 +1,6 @@
 <div class="row basicBlogHeader flex-column align-content-start pt-13 pt-md-14 mx-auto {{ include.class }}">
   <h1>{{ page.title }}</h1>
-  {% if include.location %}
+  {% if page.location %}
   <div class="location">
     <svg
       width="12"
@@ -14,7 +14,7 @@
         fill="black"
       />
     </svg>
-    {{ include.location }}
+    {{ page.location }}
   </div>
   {% endif %}
 </div>

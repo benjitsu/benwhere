@@ -1,23 +1,22 @@
 /* Page */
- 
+
 .pageWrap {
   min-height: 100vh;
 }
 
 .contactPage {
   .big {
-    @include rem(font-size, 40px)
-    @include rem(line-height, 40px)
+    letter-spacing: -1.8px;
+    @include rem(font-size, 55px);
+    @include rem(line-height, 50px);
     font-weight: 900;
     @include media-breakpoint-down(sm) {
       text-align: center;
-      @include rem(font-size, 30px)
-    @include rem(line-height, 30px)
+      @include rem(font-size, 30px) @include rem(line-height, 30px);
     }
   }
   .small {
-    @include rem(font-size, 15px)
-    @include media-breakpoint-down(sm) {
+    @include rem(font-size, 15px) @include media-breakpoint-down(sm) {
       text-align: center;
     }
     a {

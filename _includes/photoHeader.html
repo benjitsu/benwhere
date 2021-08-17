@@ -1,7 +1,7 @@
 <div style="background-image: url({{ include.path }});" class="row photoHeader align-items-end reveal load-hidden mb-12 d-none d-md-flex">
     <div class="col col-lg-6 content pl-3 pl-lg-6 pb-5">
     <h1>{{ page.title }}</h1>
-    {% if include.location %}
+    {% if page.location %}
   <div class="location">
     <svg
       width="12"
@@ -15,11 +15,11 @@
         fill="white"
       />
     </svg>
-    {{ include.location }}
+    {{ page.location }}
   </div>
   {% endif %}
   <p class="mt-4">{{ page.exerpt }}</p>
   </div>
     <div class="overlay"></div>
   </div>
-  {% include basicBlogHeader.html location="Bangkok, Thailand" class="d-md-none" %}
+  {% include basicBlogHeader.html class="d-md-none" %}

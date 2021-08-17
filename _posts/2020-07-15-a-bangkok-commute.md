@@ -1,13 +1,14 @@
 ---
 layout: blogPost
 title: A Bangkok Commute
+location: Bangkok, Thailand
 permalink: /a-bangkok-commute/
 hero: /photos/blog/klong/klong-4.jpg
 exerpt: An exploration of one of the many commuter water buses running daily in the canals that transverse Bangkok's urban landscape.
 white: true
 ---
 
-{% include photoHeader.html path="/photos/blog/klong/klong-4.jpg" location="Bangkok, Thailand" %}
+{% include photoHeader.html path="/photos/blog/klong/klong-4.jpg" %}
 
 <p>If you speak to any old asian hand long enough they’ll likely regale you with endless lore of the Bangkok of years past. The stories usually start with Patpong, Soi Cowboy, and heroin addicted soldiers on R&R from the Vietnam war. But, if you dig back even farther in time, the stories usually move onto how Bangkok was once just a wet riverside city sometimes referred to as the Venice of the east.</p>
 

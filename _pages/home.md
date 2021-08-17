@@ -36,12 +36,14 @@ permalink: /
         <!-- Photo Banner -->
             {% for post in site.posts limit:1 %}
             <a href="{{ post.url }}">
-            <div class="row photoHero position-relative">
-            <div class="details reveal up pl-6 pb-5">
+            <div class="row photoHero position-relative justify-content-center">
+<div class="col inner position-absolute mx-auto p-0 pl-md-6 h-100">
+            <div class="details pb-5">
                 <div class="date mt-4">{{ post.date | date: "%m.%d.%y" }}</div>
                 <h1 class="mt-3 mb-2"> {{ post.title }} </h1>
                 <p>{{ post.exerpt }}</p>
             </div>
+        </div>
             <img src="{{ post.hero }}" alt="{{ post.title }}">
         </div>
     </a>
@@ -49,10 +51,10 @@ permalink: /
 </div>
 
 
-<div class="container-fluid blogList my-11">
+<div class="container-fluid px-0 blogList my-11">
     <div class="row mx-auto">
         {% for post in site.posts limit:1 %}
-        <div class="px-0 px-sm-6 col-lg-6 d-md-none mt-4">
+        <div class="px-3 px-sm-6 col-lg-6 d-md-none mt-4">
           <div class="post reveal load-hidden up mb-11 mb-md-12">
             <a href="{{ post.url }}">
                 <div class="postImg position-relative">
@@ -69,7 +71,7 @@ permalink: /
 
 
         {% for post in site.posts offset:1 %}
-<div class="px-0 px-sm-6 col-lg-6">
+<div class="px-3 px-sm-6 col-lg-6">
   <div class="post reveal load-hidden up mb-11 mb-md-12">
     <a href="{{ post.url }}">
         <div class="postImg position-relative">
@@ -105,6 +107,5 @@ permalink: /
 </div> -->
 </div>
 </div>
-
 
 

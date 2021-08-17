@@ -1,12 +1,13 @@
 ---
 layout: blogPost
 title: 3 Days in Fez Morocco
+location: Fez, Morocco
 permalink: /3-days-in-fez-morocco/
 hero: /photos/blog/fez/fez-6.jpg
 exerpt: A last minute trip through a very old city.
 ---
 
-{% include basicBlogHeader.html location="Fez, Morocco" %}
+{% include basicBlogHeader.html %}
 
 <p>Not long ago I was traveling through Europe with friends and on a whim we took a last minute detour to Fez for a few days. Upon landing I learned 2 things very quickly. First, we were right in the middle of the Ramadan Holiday. Meaning the mostly Muslim residents were abstaining from food, water, and cigarettes from sunrise to sunset. And second, people really did not like having their picture taken without prior permission - their angry reactions were probably not aided by the fact that they were hungry, thirsty, and largely nicotine deprived.</p>
 

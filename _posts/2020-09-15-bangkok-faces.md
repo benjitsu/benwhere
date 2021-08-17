@@ -1,6 +1,7 @@
 ---
 layout: blogPost
 title: Bangkok Faces
+location: Bangkok, Thailand
 permalink: /bangkok-faces/
 hero: /photos/blog/bkk-faces/bkk-faces-4.jpg
 exerpt: A quick walk through the streets of Bangkok observing the smiling and not so smiling faces.
@@ -21,4 +22,8 @@ white: true
 {% include photo.html path="/photos/blog/bkk-faces/bkk-faces-6.jpg" width="700px" %}
 {% include photo.html path="/photos/blog/bkk-faces/bkk-faces-7.jpg" width="1200px" %}
 {% include photo.html path="/photos/blog/bkk-faces/bkk-faces-8.jpg" width="1200px" %}
+
+
+
+
 
