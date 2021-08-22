@@ -125,6 +125,21 @@
 }
 
 .blogPost {
+    .details {
+        max-width: 1200px;
+        @include rem(font-size, 15px);
+        @include rem(line-height, 15px);
+        font-weight: 600;
+        img,
+        svg {
+            &:hover {
+                cursor: pointer;
+                transform: translateY(-1px);
+                @include transition(all, 200ms, ease-out);
+                opacity: 0.6;
+            }
+        }
+    }
     h1 {
         @include rem(font-size, 50px);
         @include media-breakpoint-down(sm) {
