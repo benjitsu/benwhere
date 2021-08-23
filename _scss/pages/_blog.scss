@@ -15,10 +15,10 @@
 }
 
 .photoHero {
-    height: 600px;
+    height: 75vh;
     background-color: black;
     .inner {
-        max-width: 1440px;
+        max-width: 1600px;
     }
     .details {
         z-index: 2;
@@ -56,7 +56,7 @@
 
 .blogList {
     .row {
-        max-width: 1440px;
+        max-width: 1600px;
     }
     .post {
         &:hover {
