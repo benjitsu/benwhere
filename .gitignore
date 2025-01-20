@@ -3,7 +3,7 @@
 
 # ignore compiled site
 /_site/
-
+.jekyll-cache/
 #photos
 
 /photos/
