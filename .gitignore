@@ -1,9 +1,6 @@
 # ignore node modules
 /node_modules/
 
-# ignore compiled site
-/_site/
 .jekyll-cache/
 #photos
-
 /photos/

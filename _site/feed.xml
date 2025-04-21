@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben Weinstein Creative Portfolio</title>
+    <description>Ben Weinstein Creative Portfolio</description>
+    <link>http://benwhere.com//</link>
+    <atom:link href="http://benwhere.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Apr 2025 11:54:30 +0700</pubDate>
+    <lastBuildDate>Mon, 21 Apr 2025 11:54:30 +0700</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>This is my first sample post with a long title for testing!</title>
+        <description>&lt;h1&gt;This is my first sample post with a long title for testing!&lt;/h1&gt;
+</description>
+        <pubDate>Wed, 15 Jul 2020 00:00:00 +0700</pubDate>
+        <link>http://benwhere.com//first-sample-post/</link>
+        <guid isPermaLink="true">http://benwhere.com//first-sample-post/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
