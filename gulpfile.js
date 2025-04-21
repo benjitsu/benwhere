@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var dartSass = require('sass');
+var sass = require('gulp-sass')(dartSass);
 var cssnano = require('cssnano');
 var browserSync = require('browser-sync');
 var prefix = require('gulp-autoprefixer');
